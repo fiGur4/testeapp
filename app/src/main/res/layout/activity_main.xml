@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_primeira_tela"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <!-- Aqui comeca a minha recycle view-->
+
+    <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/main_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <!--    <LinearLayout-->
+<!--        android:id="@+id/btn_IMC"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/ic_outline_play_circle_24" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/imc" />-->
+
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>
+
+
